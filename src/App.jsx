@@ -1,13 +1,14 @@
 import React from 'react'
-
+import './index.css'
+import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
 export default function App() {
   return (
-    <div>
-      pppppppppp
-      pppppppppp
-      pppppppppp
-      pppppppppp  gggg
-      <p>Lorem, ipsum dolor.</p>
-    </div>
+    <>
+      <main className='overflow-x-hidden'>
+        <Navbar/>
+        <Hero/>
+      </main>
+    </>
   )
 }
