@@ -7,6 +7,7 @@ export default function App() {
       pppppppppp
       pppppppppp
       pppppppppp  gggg
+      <p>Lorem, ipsum dolor.</p>
     </div>
   )
 }
